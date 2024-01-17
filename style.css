@@ -184,3 +184,89 @@
   text-transform: capitalize;
   background-color: honeydew;
 }
+.midile-banner-container{
+  width: 1600px;
+height: 7335px;
+margin: 0 auto;
+}
+.midile-banner{
+width: 400px;
+height: 100px;  
+display: contents;
+margin: 0 auto;
+padding: 20px;
+}
+.banner-head{
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;  
+  font-weight: 500;
+  margin: 34px auto;
+}
+.main-head{
+  color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+width: 800px;
+margin: 36px auto;
+}
+.sale50{
+  color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+margin: 63px auto;
+}
+.banner-dircisption{
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 1068px;
+  margin: 0 auto;
+}
+.banner-images{
+  width: 1320px;
+}
+.row{
+  margin: 0 auto;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.colmun{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.woman-img{
+  position: relative;
+  top: 49px;
+  left: 386px;
+  border-radius: 16px 16px 0px 0px;
+  background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repeat,linear-gradient(16deg, #5F3B33 374.27%, #784833 377.69%, #8B5233 381.11%, #995933 384.53%, #A15E33 387.95%, #A35F33 396.5%, #AF6D35 403.34%, #CD9039 418.73%, #DFA53B 432.4%, #E6AD3C 442.66%, #D1953A 447.79%, #B67737 456.34%, #A36135 464.89%, #975433 473.44%, #935033 480.28%),radial-gradient(69.16% 8.37% at 36.33% 48.09%, #FFB800 0%, #FFC738 18%, #FFDF8C 48%, #FFF0CA 73%, #FFFBF0 91%, #FFF 100%),linear-gradient(98deg, #FFAD41 -59.69%, #FFC25C -57.78%, #FFD575 -53.97%, #FFE387 -50.16%, #FFEB92 -46.35%, #FFEE95 -42.54%, #FDEA92 -38.73%, #F8DF88 -36.82%, #EFCD77 -33.01%, #E2B35F -29.2%, #CB8536 -25.39%, #CF8D3D -17.77%, #DAA351 -8.24%, #ECC772 5.09%, #FFEE95 16.52%, #FFE281 18.43%, #FFD76D 20.33%, #FFCE5E 22.24%, #FFC956 26.05%, #FFC853 31.77%, #CB8536 75.59%, #D18937 85.11%, #E1963B 96.55%, #FCAB40 111.79%, #FFAD41 113.69%, #CB8536 130.84%);
+  width: 554px;
+  height: 537px;
+  flex-shrink: 0;
+}
+.offer-img1{
+  position: absolute;
+  top: 193px;
+  left: 696px;
+  width: 311.841px;
+  height: 333.841px;
+flex-shrink: 0;
+}
