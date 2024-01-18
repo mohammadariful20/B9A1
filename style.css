@@ -233,7 +233,7 @@
   width: 1320px;
   margin-top: 65px;
 }
-.row {
+.rows {
   margin: 0 auto;
 }
 .column {
@@ -260,7 +260,7 @@
 .woman-img {
   position: relative;
   top: 5px;
-  left: 386px;
+  left: 546px;
   border-radius: 16px 16px 0px 0px;
   background: url(<path-to-image>),
     lightgray -59.98px 0px / 151.553% 100% no-repeat,
@@ -327,7 +327,7 @@
 .offer-img1 {
   position: absolute;
   top: 193px;
-  left: 696px;
+  left: 834px;
   width: 311.841px;
   height: 333.841px;
   flex-shrink: 0;
@@ -341,10 +341,13 @@
 }
 .portofilo {
   margin: 0 auto;
-  display: flex;
+  display: block;
   justify-content: center;
+  width: 1687px;
 }
-
+.portofilo-content {
+  margin: -233px 0 43px 53px;
+}
 .normal-heading {
   color: #f00;
   font-family: Inter;
@@ -371,22 +374,76 @@
   font-weight: 500;
   padding: 15px;
 }
+.row{    
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: row
+}
 .colum {
-  width: 424px;
-  height: 450px;
-  flex-shrink: 0;
   border-radius: 16px;
-  background: url(<path-to-image>),
-    lightgray 0px -35.755px / 100% 142.115% no-repeat;
+  background:#fff;
   float: left;
-  width: 33.33%;
-  padding: 5px;
+  padding: 12px;
+}
+.por-imgs{
+  float: left;
 }
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
-.row {
-  width: 1800px;
+.head-last-section{
+  width: 1320px;
+flex-shrink: 0;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin: 30px auto ;
+}
+.head-last-img{
+  width: 150px;
+height: 150px;
+flex-shrink: 0;
+margin: 100px 0 64px 598px;
+
+}
+.head-last-heading{
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.head-content{
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+ padding: 62px 94px 83px 78px;
+}
+#label-input{
+  width: 648px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 30px;
+background: #FFF;
+}
+.btn-midile{
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+background: #F00;
+}
+.input-label
+{
+  margin: 0 0 0 202px;
+}
+.input-btn{
+  margin: 0 auto;
 }
